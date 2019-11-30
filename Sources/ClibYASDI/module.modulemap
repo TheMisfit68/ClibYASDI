@@ -1,0 +1,11 @@
+module ClibYASDI [system] {
+    header "ClibYASDI.h"
+    link "yasdi"
+    export *
+}
+
+module ClibYASDImaster [system] {
+    header "ClibYASDImaster.h"
+    link "yasdimaster"
+    export *
+}
