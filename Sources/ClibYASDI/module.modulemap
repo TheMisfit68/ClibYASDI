@@ -1,11 +1,11 @@
-module ClibYASDI [system] {
-    header "ClibYASDI.h"
+module ClibYASDI {
+    header "master.h"
     link "yasdi"
     export *
 }
 
-module ClibYASDImaster [system] {
-    header "ClibYASDImaster.h"
-    link "yasdimaster"
-    export *
-}
+//module ClibYASDImaster [system] {
+  //  header "master.h"
+    //link "yasdimaster"
+    //export *
+//}
