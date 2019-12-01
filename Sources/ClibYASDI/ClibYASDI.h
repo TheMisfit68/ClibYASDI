@@ -5,5 +5,6 @@
 //  Created by Jan Verrept on 01/12/2019.
 //
 
-import ClibYASDI
+#import "master.h"
+#import "smadef.h"
 
