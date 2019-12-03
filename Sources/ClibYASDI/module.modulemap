@@ -1,11 +1,12 @@
 module ClibYASDI [system]{
     header "Headers/smadef.h"
     link "yasdi"
+    
+    explicit module ClibYASDImaster [system]{
+        header "Headers/master.h"
+        link "yasdimaster"
+    }
+
     export *
 }
 
-module ClibYASDImaster [system]{
-    header "Headers/master.h"
-    link "yasdimaster"
-    export *
-}
