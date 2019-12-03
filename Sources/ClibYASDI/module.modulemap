@@ -1,7 +1,7 @@
 module ClibYASDI [system]{
     umbrella header "Headers/master.h"
-//    umbrella header "master.h"
-    link "libyasdi"
+    umbrella header "Headers/smadef.h"
+    link "yasdi"
     link "yasdimaster"
     export *
 }
