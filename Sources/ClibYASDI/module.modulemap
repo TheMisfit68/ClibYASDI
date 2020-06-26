@@ -1,6 +1,6 @@
 module ClibYASDI {
     
-    header "ClibYASDI.h"
+    header "../../Headers/ClibYASDI.h"
     link "yasdi"
     link "yasdimaster"
     export *
